@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Soft Skill 2</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+		<style>
+		.container1 {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        .year {
+            background: rgba(244, 98, 58, 0.7); ;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .year p {
+			text-align: left;
+            margin: 10px 0;
+			padding-left: 20px;
+        }
+		 .container2 {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 25px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 12px;
+        }
+        
+        .container2 h1 {
+            color: #ff5733;
+            font-size: 32px;
+        }
+        .container2 p {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: left;
+            padding: 10px 20px;
+        }
+        .container2 ul {
+            text-align: left;
+            padding: 0 40px;
+        }
+        .container2 li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+			
+			.gallery-container {
+            max-width: 1000px;
+            margin: 30px;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 200px; /* กำหนดให้ทุกภาพสูงเท่ากัน */
+            object-fit: cover; /* ครอบให้รูปเต็มขนาด */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+			
+			
+
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+			
+			 .hidden {
+            display: none;
+        }
+
+        .button {
+            background-color: #ff4d6d;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff1e40;
+            transform: scale(1.1);
+        }
+		</style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">SOFT SKILL 2</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+   
+                        <li class="nav-item"><a class="nav-link" href="#services">Life Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Growth Mindset</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Life Goals</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Soft Skill 2 : Personal Growth</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">67365126 Rattikan Kankaew Faculty of Engineering Department of Computer Engineering.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container my-4">
+        <h1 class="mb-4 text-center">Life Drashboard</h1>
+        
+        <div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 1</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="card-text text-muted">เป็นช่วงที่เริ่มทำงานพาร์ทไทม์ รู้สึกว่าทำได้มันก็ดี แต่มันแบ่งเวลาในการเรียนยากมาก พยายามแบ่งให้ดีที่สุด</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        </div>
+                        <p class="card-text text-muted">ไม่ค่อยได้ทำอะไรเลย เพราะต้องแบ่งเวลาให้เรียนกับงาน</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+                        <p class="card-text text-muted">ทำความรู้จักเพื่อนใหม่ในคณะและที่ทำงานพาร์ทไทม์ ยังต้องใช้เวลาในการสนิทกัน</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="card-text text-muted">พยายามปรับเวลานอนให้เหมาะสม แต่ยังไม่ชินกับตารางที่แน่น</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+				
+				<div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 2</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+                    <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60</div>
+                        </div>
+                        <p class="card-text text-muted">เริ่มปรับตัวได้ เริ่มทำโน้ตและแบ่งเวลาทำการบ้านให้ดีขึ้น</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="card-text text-muted">เวลาว่างยังไม่มาก อาจใช้เวลาคุยกับเพื่อนหรือพักผ่อนช่วงสั้นๆ</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                        <p class="card-text text-muted">สนิทกับเพื่อนมากขึ้น และรู้จักคนมากขึ้น</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <p class="card-text text-muted">งานหนักขึ้นจนไม่มีเวลาพักผ่อน</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+				
+				<div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 3</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p class="card-text text-muted"> เริ่มมีงานกลุ่มและโปรเจกต์มากขึ้น งานพาร์ทไทม์เริ่มหนักขึ้นแต่ยังพอไหว</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+                        </div>
+                        <p class="card-text text-muted">ไม่มีเวลาพักผ่อนเลย แต่ก็พอได้อยู่</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="card-text text-muted">มีโอกาสสร้างคอนเนคชั่นใหม่ๆ อาจเริ่มมีการทำงานกลุ่มร่วมกัน</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="card-text text-muted">ออกกำลังกายลดลงเพราะงานเยอะ ต้องปรับเวลาการกินและพักผ่อ.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+				
+				<div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 4</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                        </div>
+                        <p class="card-text text-muted">บริหารเวลาได้ดีขึ้น เริ่มอ่านหนังสือก่อนสอบและทำงานพาร์ทไทม์ได้มีประสิทธิภาพ แต่มันยังดีไม่พอ</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p class="card-text text-muted"><strong>Performance is meeting expectations.</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                        <p class="card-text text-muted">สนิทกับเพื่อนกลุ่มเล็ก ๆ เจอคนใหม่ ๆ คุยกับครอบครัว</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+                        <p class="card-text text-muted">พยายามหาเวลาพักผ่อน</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+				
+				<div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 5</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+                        <p class="card-text text-muted">งานเยอะขึ้น มี Quiz และโปรเจกต์ที่ต้องส่ง ทำให้เวลาทำงานพาร์ทไทม์เริ่มหนัก แต่ได้กลับบ้านมีความสุขมาก</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p class="card-text text-muted">กลับบ้านได้ทำอะไรเยอะมาก เจอคนที่อยากเจอ เล่นกับหลาน ทำขนม ไปเที่ยวกับเด็ก และเป็นปีใหม่</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+                        <p class="card-text text-muted">ได้ใช้เวลากับครอบครัว มีความสุขที่สุด ได้คุยกับคนที่ชอบ เขิน</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+                        <p class="card-text text-muted">นอนดึกขึ้น กินอาหารไม่ค่อยเป็นเวลา ต้องพยายามดูแลตัวเองมากกว่านี้</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+				
+				<div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 6</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                        <p class="card-text text-muted">โฟกัสกับการอ่านหนังสือและทบทวนบทเรียนมากขึ้น งานพาร์ทไทม์เริ่มใช้พลังงานเยอะ</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                        <p class="card-text text-muted">มีเวลาพักผ่อนน้อยลง เพราะต้องทุ่มเทให้กับการสอบ</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="card-text text-muted">เวลาคุยกับเพื่อนน้อยลง เพราะต่างคนต่างเร่งอ่านหนังสือ</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">35%</div>
+                        </div>
+                        <p class="card-text text-muted"> สุขภาพเริ่มแย่ลงจากความเครียดและนอนน้อย</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+				
+				<div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 7</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p class="card-text text-muted">อ่านหนังสือหนักมากเพื่อเตรียมสอบ ใช้เวลาส่วนใหญ่ไปกับการเรียน</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        </div>
+                        <p class="card-text text-muted">แทบไม่ได้พักผ่อนเลย เพราะโฟกัสกับการเรียนและสอบ</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        </div>
+                        <p class="card-text text-muted">เครียดจนแทบไม่มีเวลาคุยกับใคร</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+                        <p class="card-text text-muted">นอนดึกแทบทุกวัน อาจต้องหาเวลาดูแลตัวเองหลังสอบเสร็จ</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+				
+				<div class="row g-4 mt-5">
+        <div class="col-12">
+            <h3 class="text-center">Week 8</h3>
+			</div>
+            <!-- Card 1: Customer Satisfaction -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">work</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                        <p class="card-text text-muted">สอบเสร็จแล้ว! </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Employee Performance -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">play</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                        <p class="card-text text-muted">กลับมาพักผ่อนเต็มที่ </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: System Efficiency -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Love</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+                        <p class="card-text text-muted">มีเวลาคุยกับคนที่ชอบมากขึ้นนนน</p>
+                    </div>
+				</div>
+            </div>
+
+            <!-- Card 4: Project Completion -->
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Health</h5>
+                        <div class="progress mb-3" style="height: 20px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <p class="card-text text-muted">พักผ่อนให้เพียงพอ อาจเริ่มออกกำลังกายอีกครั้ง</p>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </div>
+			
+			
+			
+        </section>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+					<h1 class="mb-4 text-center">Growth Mindset</h1>
+					
+                    <div class="container2">
+        <div class="container gallery-container">
+         <div class="row g-3 justify-content-center">
+            <div class="col-6 col-md-3">
+                <img src="assets/img/pim.jpg" class="gallery-img" alt="รูปที่ 1" >
+            </div>
+            <div class="col-6 col-md-3">
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/2rBjH5tvktw" frameborder="0" allowfullscreen></iframe>
+</div>
+            <div class="col-6 col-md-3">
+                <img src="assets/img/p1.jpg" class="gallery-img" alt="รูปที่ 3">
+            </div>
+			 </div>
+        <p><strong>พิมรี่พาย</strong> เป็นตัวอย่างที่ดีของคนที่มี Growth Mindset ซึ่งเป็นแนวคิดที่ช่วยให้คนสามารถพัฒนาตัวเองและก้าวข้ามอุปสรรคต่าง ๆ ได้</p>
+        <h2>คุณสมบัติของ Growth Mindset ที่พิมรี่พายมี:</h2>
+        <ul>
+            <li><strong>ไม่กลัวความล้มเหลว</strong> - เธอเชื่อว่าความผิดพลาดเป็นบทเรียนที่ทำให้เติบโต</li>
+            <li><strong>เรียนรู้อย่างต่อเนื่อง</strong> - เธอไม่หยุดที่จะพัฒนาตัวเองและเปิดรับความรู้ใหม่ ๆ</li>
+            <li><strong>มีความมุ่งมั่น</strong> - เธอทำงานหนักและพยายามแก้ไขปัญหาให้ดีที่สุด</li>
+            <li><strong>ปรับตัวเก่ง</strong> - ไม่ว่าสถานการณ์จะเปลี่ยนไปอย่างไร เธอสามารถปรับตัวได้เสมอ</li>
+            <li><strong>แบ่งปันความสำเร็จ</strong> - เธอให้ความสำคัญกับการช่วยเหลือผู้อื่นและสังคม</li>
+        </ul>
+        <p>แนวคิด Growth Mindset ช่วยให้พิมรี่พายสามารถก้าวข้ามอุปสรรคและประสบความสำเร็จในทุกด้านของชีวิต ทั้งในแง่ธุรกิจและการช่วยเหลือสังคม</p>
+    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to action-->
+        <section class="page-section bg-dark text-white" id="contact">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-5 text-white">Life Goals</h1>
+				<div class="container1">
+        <h1>แผนชีวิตในอนาคต 2025 - 2030</h1>
+        <div class="year">
+            <h3>ปี 2025</h3>
+            <p>- ทำเกรดปี 1 ให้ดีที่สุด</p>
+			<p>- พยายามหาสิ่งที่ตัวเองชอบจริง ๆ </p>
+			<p>- ตั้งเป้าหมายให้เรียนพื้นฐานให้แน่นขึ้นกว่าเดิม</p>
+			<p>- ศึกษาและเตรียมตัวสำหรับการสอบใบรับรองพื้นฐาน</p>
+			<p>- เริ่มต้นการเรียนปี 2 ให้ดีกว่าตอนปี 1</p>
+        </div>
+        <div class="year">
+            <h3>ปี 2026</h3>
+            <p>- ลองฝึกงานระยะสั้น (ถ้ามีโอกาส) หรือเข้าร่วมโครงการที่เกี่ยวข้องกับ Cybersecurity</p>
+			<p>- เริ่มสร้าง Portfolio รวมผลงานของตัวเอง </p>
+			<p>- ตั้งใจเรียนทำเกรดให้ดีกว่าดิม</p>
+			<p>- ทำโปรเจกต์เ</p>
+			
+        </div>
+        <div class="year">
+            <h3>ปี 2027</h3>
+            <p>- เลือกโปรเจคจบที่เกี่ยวข้องกับ Cybersecurity</p>
+			<p>- เทำโปรเจคจบให้เสร็จภายในปีนี้ เพื่อให้ปี 4 โฟกัสกับการฝึกงานได้เต็มที่</p>
+			<p>- ศึกษาและเตรียมสอบใบรับรองที่สูงขึ้น</p>
+			<p>- เข้าร่วมแข่งขันด้าน Cybersecurity หรือ Hackathon เพื่อเพิ่มประสบการณ์</p>
+        </div>
+        <div class="year">
+            <h3>ปี 2028</h3>
+            <p>- สมัครฝึกงานในองค์กรที่เกี่ยวข้องกับ Cybersecurity</p>
+			<p>- สร้างคอนเนคชันกับผู้เชี่ยวชาญในสายงาน</p>
+			<p>- ศึกษากฎหมายและข้อบังคับเกี่ยวกับ Cyber Crime , Cyber Law</p>
+			<p>- เตรียมตัวสมัครงานหลังเรียนจบ</p>
+			
+        </div>
+        <div class="year">
+            <h3>ปี 2029 - 2030</h3>
+            <p>- สมัครงานในหน่วยงานที่เกี่ยวข้อง เช่น หน่วยงานรัฐ หรือองค์กรด้านความปลอดภัยไซเบอร์</p>
+			<p>- สร้างผลงานหรือทำวิจัยเกี่ยวกับการป้องกันภัยไซเบอร์</p>
+			<p>- เรียนรู้และอัปเดตเทคโนโลยีใหม่ ๆ ในสายงาน Cybersecurity</p>
+			
+        </div>
+        
+    </div>
+                
+            </div>
+        </section>
+       
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Rattikan Kankaew</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
